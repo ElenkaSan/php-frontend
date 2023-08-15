@@ -62,7 +62,7 @@
 </div>
 
     <div class="container my-2">
-    <div id="carouselExample" class="carousel slide">
+      <div id="carouselExample" class="carousel slide">
           <div class="jumbotron my-2 col-md-8 offset-md-2 justify-content-center">
             <div class="carousel-inner">
               <div class="carousel-item active">
@@ -92,17 +92,21 @@
             </button>
           </div>
         </div>
+       </div>
       <br/>
       <br/>
-      <div class="jumbotron justify-content-center">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore distinctio dolor dolores aliquid
-        dolore totam mollitia exercitationem, sunt praesentium rerum libero, dicta ipsam fugit ipsa, blanditiis
-        repellendus consequuntur vero temporibus. Duis aute irure dolor in reprehenderit in voluptate velit esse 
-        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa 
-        qui officia deserunt mollit anim id est laborum.
+      <div class="row">
+        <div class="container justify-content-center my-2">
+          <div class="card-group border-0 p-5">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore distinctio dolor dolores aliquid
+          dolore totam mollitia exercitationem, sunt praesentium rerum libero, dicta ipsam fugit ipsa, blanditiis
+          repellendus consequuntur vero temporibus. Duis aute irure dolor in reprehenderit in voluptate velit esse 
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa 
+          qui officia deserunt mollit anim id est laborum.
+        </div>
+       </div>
       </div>
       <br/>
       <br/>
-  </div>
 
 <?php include 'footer.php'; ?>
